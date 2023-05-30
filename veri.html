@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdülkadir SOYUK | Veri Gönder-Çek</title>
+    <style>
+      label {
+        font-size: 20px;
+      }
+      input {
+        height: 20px;
+        margin-bottom: 10px;
+      }
+      div {
+        font-size: 20px;
+        line-height: 32px;
+      }
+      button {
+        font-size: 20px;
+        cursor: pointer;
+        margin: 10px;
+      }
+      span {
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <label for="ad">Adınız:</label>
+      <input type="text" id="ad" placeholder="Adınız" /> <br />
+      <label for="soyadad">Soyadınız:</label>
+      <input type="text" id="soyad" placeholder="Soyadınız" /> <br />
+      <label for="no">Okul Numaranız:</label>
+      <input type="text" id="no" placeholder="Okul Numaranız" /> <br />
+      <button class="verigonder" onclick="verigonder()">Veri Gönder</button>
+    </div>
+    <img src="images/ticaretlogo.png" alt="" />
+    <div class="isim"><span>Adınız: </span></div>
+    <div class="soyisim"><span>Soyadınız: </span></div>
+    <div class="okulno"><span>Okul Numaranız: </span></div>
+    <div class="bolum"><span>Bölümünüz: </span></div>
+    <div class="aciklama"><span>Açıklama: </span></div>
+    <button class="vericek" onclick="vericek()">Veri Çek</button>
+    <script>
+      var ad;
+      var soyad;
+      var no;
+      var bolum;
+      var aciklama;
+      function verigonder() {
+        ad = document.querySelector("#ad").value;
+        soyad = document.querySelector("#soyad").value;
+        no = document.querySelector("#no").value;
+        bolum = "Bilgisayar Programcılığı";
+        aciklama =
+          "Web sitemde Footer kısmında telif hakkı işareti ve kayan yazısı, Ana Sayfada şubeler kısmında lightbox,  basketbol konulu blog yazısı sayfasında animasyon, Ana Sayfada neon yazı, Hemen Üye Ol sayfasında 150 kelimelik mesaj kutusu ve hareketli menü bulunmaktadır. Bunlara ek olarak sayfa yüklenirken yükleniyor animasyonu, özelleştirilmiş kaydırma çubuğu, sayfa aşağı kaydırıldığında ortaya çıkan yukarı çık butonu, sayfanın ne kadar kaydırdığını görebildiğimiz progress, animasyonlu açılan sıkça sorulan sorular kısmı, vki konulu blogda vki hesaplama, Ana Sayfada belirli süreyle arka plan resmi değişen section, üzerine gelindiğinde büyüyen üyelikler ve fiyatlar kısmı, kopyalanıp yapıştırıldığında otomatik kaynak belirten blog yazıları ve tüm sayfaların tamamen responsive olması web sitemin özellikleridir.";
+        alert("Veri Başarıyla Gönderildi");
+      }
+      function vericek() {
+        document.querySelector(".isim").innerHTML += ad;
+        document.querySelector(".soyisim").innerHTML += soyad;
+        document.querySelector(".okulno").innerHTML += no;
+        document.querySelector(".bolum").innerHTML += bolum;
+        document.querySelector(".aciklama").innerHTML += aciklama;
+      }
+    </script>
+  </body>
+</html>

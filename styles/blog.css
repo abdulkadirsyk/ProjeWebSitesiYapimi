@@ -1,0 +1,64 @@
+main {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: rgb(37, 37, 37);
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+.blog {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.icerik {
+  width: 350px;
+  background-color: rgb(206, 255, 206);
+  height: 450px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.container h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 2%;
+  color: rgb(70, 70, 70);
+}
+article:hover img {
+  filter: brightness(75%);
+}
+.icerik img {
+  width: 100%;
+  transition: 200ms;
+}
+.icerik h3 {
+  font-size: 20px;
+  margin: 5px;
+  font-weight: 600;
+}
+.yazi {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 10px;
+}
+.devam {
+  width: 98%;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 753px) {
+  .container h2 {
+    margin-left: 10%;
+  }
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IronWork | Hakkımızda</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/loading.css" />
+    <link rel="stylesheet" href="styles/hakkimizda.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".up").hide();
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 200) {
+            $(".up").fadeIn();
+          } else {
+            $(".up").fadeOut();
+          }
+        });
+        $(".up").click(function () {
+          $("html, body").animate({ scrollTop: 0 }, 800);
+          return false;
+        });
+      });
+      window.addEventListener("load", function () {
+        $(".loading").fadeOut(500);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="progress-bar"></div>
+    <div class="loading">
+      <section id="global">
+        <div id="top" class="mask">
+          <div class="plane"></div>
+        </div>
+        <div id="middle" class="mask">
+          <div class="plane"></div>
+        </div>
+
+        <div id="bottom" class="mask">
+          <div class="plane"></div>
+        </div>
+
+        <p><i>YÜKLENİYOR...</i></p>
+      </section>
+    </div>
+
+    <div class="up">
+      <i class="fa-sharp fa-solid fa-caret-up" style="color: #ffffff"></i>
+    </div>
+
+    <header>
+      <div class="header">
+        <a href="index.html">
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+            <h1>IronWork</h1>
+          </div>
+        </a>
+        <div class="hamburger" onclick="menu()">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            <li>
+              <a href="uyeol.html">
+                <button class="button">Hemen Üye Ol</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="hakkimizda">
+      <h2>Hakkımızda</h2>
+      <p>
+        Spor salonları, sağlıklı yaşam tarzını benimseyen ve fiziksel formunu
+        korumak isteyen insanlar için popüler bir seçenektir. Bir spor salonu,
+        düzenli egzersiz yaparak sağlıklı bir yaşam tarzı benimsemek isteyen
+        insanlar için mükemmel bir ortam sunar. Bu yazıda, IronWork Spor Salonu
+        olarak bizim hakkımızda ve hizmetlerimiz hakkında daha fazla bilgi
+        edineceksiniz. IronWork Spor Salonu, sağlıklı yaşam tarzına olan
+        bağlılığıyla bilinen bir spor salonudur. Bizim için herkesin sağlığı ve
+        formu önemlidir. Bu nedenle, her yaşa ve her seviyedeki insanlara uygun
+        egzersiz seçenekleri sunuyoruz. Sağlıklı yaşam tarzını benimsemek
+        isteyen herkes, bizimle çalışarak daha iyi bir hayat tarzına adım
+        atabilir. Salonumuzda, son teknoloji ekipmanları kullanarak, en iyi
+        antrenman deneyimini sunuyoruz. Kaliteli spor ekipmanlarının yanı sıra,
+        alanında uzman antrenörlerimiz de sizlere rehberlik ediyor.
+        Antrenörlerimiz, her müşterinin ihtiyaçlarına göre kişiselleştirilmiş
+        antrenman programları hazırlayarak, herkesin hedeflerine ulaşmasına
+        yardımcı oluyor. IronWork Spor Salonu'nda, fitness dersleri de
+        sunmaktayız. Cardio, yoga, pilates, spinning ve kickboxing gibi
+        derslerimiz, sadece egzersiz yapmak isteyenler için değil, aynı zamanda
+        yeni bir şeyler öğrenmek ve sosyalleşmek isteyenler için de harika bir
+        fırsattır. Derslerimiz, alanında uzman eğitmenlerimiz tarafından
+        verilmekte ve her seviyedeki insanlar için uygun seviyelerde
+        sunulmaktadır. Bizim için müşteri memnuniyeti her zaman önceliklidir.
+        Her müşterimiz, bizim için özeldir. Biz, her zaman müşterilerimizin
+        ihtiyaçlarına duyarlıyız ve onların hedeflerine ulaşmalarına yardımcı
+        olmak için elimizden gelenin en iyisini yaparız. IronWork Spor Salonu
+        olarak, müşterilerimize kaliteli bir spor salonu deneyimi sunmak ve
+        onların sağlıklı yaşam tarzına adım atmalarını sağlamak bizim en büyük
+        amacımızdır. Sonuç olarak, IronWork Spor Salonu olarak sağlıklı yaşam
+        tarzını benimseyen herkesi salonumuza bekliyoruz. Son teknoloji
+        ekipmanlarımız, uzman antrenörlerimiz, fitness derslerimiz ve müşteri
+        odaklı yaklaşımımızla, sağlıklı bir yaşam tarzına adım atmanızı sağlamak
+        için elimizden gelenin en iyisini yapıyoruz. Bizimle birlikte, sağlıklı
+        bir vücut ve zihin için ihtiyacınız olan her şeyi bulabilirsiniz.
+        Ayrıca, bizimle birlikte çalışmanın avantajlarından yararlanabilirsiniz.
+        Bu avantajlar arasında, kişiselleştirilmiş antrenman programları, özel
+        fitness dersleri, motivasyonel destek ve sağlıklı yaşam konusunda uzman
+        tavsiyeler bulunmaktadır. IronWork Spor Salonu olarak, sağlıklı bir
+        yaşam tarzına adım atmanın ve fiziksel formunu korumanın önemini
+        vurgulamaktayız. Sağlıklı bir yaşam tarzı sadece egzersiz yapmakla
+        sınırlı değildir, aynı zamanda sağlıklı beslenme alışkanlıkları, stres
+        yönetimi ve uyku düzeni gibi unsurları da içerir. Bu nedenle, bizimle
+        birlikte çalışırken, sadece egzersiz yapmakla kalmayacak, aynı zamanda
+        sağlıklı bir yaşam tarzı için ihtiyacınız olan tüm araçlara sahip
+        olacaksınız. Salonumuzun bir diğer avantajı da, açılış saatlerimizdir.
+        Sabahın erken saatlerinden, geç saatlere kadar çalışanlar için uygun
+        olan geniş bir çalışma saatlerine sahibiz. Böylece, yoğun bir iş
+        programı veya diğer yükümlülükleriniz nedeniyle egzersiz yapmaya zaman
+        ayıramayanlar bile bizimle birlikte çalışabilirler. Sonuç olarak,
+        IronWork Spor Salonu olarak, sağlıklı bir yaşam tarzına adım atmak
+        isteyen herkes için mükemmel bir seçenek sunuyoruz. Son teknoloji
+        ekipmanlarımız, uzman antrenörlerimiz, fitness derslerimiz ve müşteri
+        odaklı yaklaşımımızla, herkesin hedeflerine ulaşmasına yardımcı
+        oluyoruz. Bizimle birlikte çalışarak, sağlıklı bir yaşam tarzını
+        benimseyebilir, formunuzu koruyabilir ve zinde bir vücut ve zihin için
+        ihtiyacınız olan her şeyi bulabilirsiniz.
+      </p>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-in">
+          <div class="footer-left">
+            <a href="index.html">
+              <div class="logo">
+                <img src="images/logo-white.png" alt="" />
+                <h1 class="footer-ad">IronWork</h1>
+              </div>
+            </a>
+            <nav class="nav-footer">
+              <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+              </ul>
+
+              <a href="uyeol.html">
+                <button class="button-footer">Hemen Üye Ol</button>
+              </a>
+            </nav>
+          </div>
+
+          <div class="footer-center">
+            <h4 class="footer-bilgi-baslik">Bizi Takip Edin</h4>
+            <p>
+              Bizi sosyal medya hesaplarımızdan takip edin. Kampanyalardan
+              anında haberdar olun.
+            </p>
+            <div class="ikonlar">
+              <a href="https://www.facebook.com/" target="_blank">
+                <div class="facebook">
+                  <i class="fa-brands fa-facebook-f" style="color: #ffffff"></i>
+                </div>
+              </a>
+              <a href="https://twitter.com/?lang=tr" target="_blank">
+                <div class="twitter">
+                  <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <div class="instagram">
+                  <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+                </div>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <div class="youtube">
+                  <i class="fa-brands fa-youtube" style="color: #ffffff"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="footer-right">
+            <h4 class="footer-bilgi-baslik">Bilgilendirme</h4>
+            <div class="list">
+              <ul class="footer-bilgi">
+                <li><a href="">Hizmet Sözleşmesi</a></li>
+                <li><a href="">Gizlilik Sözleşmesi</a></li>
+                <li><a href="">Site Haritası</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="kayan-yazi">
+          <p class="copyright">
+            Copyright &#169; 2020 - 20223 IronWork Tüm Haklar Saklıdır.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts/header.js"></script>
+  </body>
+</html>

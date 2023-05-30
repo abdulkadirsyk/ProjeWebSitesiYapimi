@@ -1,0 +1,150 @@
+footer {
+  width: 100%;
+  background-color: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  overflow: visible;
+}
+.footer-ad {
+  color: #fff !important;
+}
+.kayan-yazi {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  overflow: visible;
+}
+@keyframes kayan-yazi {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.copyright {
+  width: 500px;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-align: center;
+  animation: kayan-yazi 10s linear infinite;
+  animation-duration: 10s;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: visible;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-in {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer-left {
+  width: 350px;
+  margin: 25px;
+}
+.list {
+  margin-left: 15px;
+}
+.footer-center {
+  width: 350px;
+
+  margin: 25px;
+}
+.footer-right {
+  width: 350px;
+  margin: 25px;
+}
+
+.nav-footer {
+  margin-top: 10px;
+}
+.nav-footer ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.nav-footer ul li {
+  padding: 5px;
+}
+.nav-footer ul li a {
+  color: rgb(219, 219, 219);
+  font-size: 16px;
+  transition: 200ms;
+}
+.nav-footer ul li a:hover {
+  color: rgb(173, 173, 173);
+}
+.button-footer {
+  width: 130px;
+  height: 35px;
+  margin-top: 3px;
+  background-color: #14e102;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 200ms;
+}
+.button-footer:hover {
+  background-color: #15ff00;
+}
+.footer-bilgi-baslik {
+  color: rgb(219, 219, 219);
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.footer-bilgi {
+  color: rgb(219, 219, 219);
+}
+.footer-bilgi li a {
+  color: rgb(219, 219, 219);
+  font-size: 16px;
+}
+.footer-center p {
+  color: rgb(219, 219, 219);
+  font-size: 16px;
+}
+.ikonlar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  width: 175px;
+}
+.twitter,
+.facebook,
+.instagram,
+.youtube {
+  background-color: #15ff00;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: 200ms;
+}
+.twitter:hover,
+.facebook:hover,
+.instagram:hover,
+.youtube:hover {
+  background-color: #14e102;
+}

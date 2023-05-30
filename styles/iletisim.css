@@ -1,0 +1,77 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 100px;
+}
+.sube {
+  display: flex;
+  margin: 20px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(224, 255, 224);
+  border-radius: 15px;
+}
+iframe {
+  margin-right: 20px;
+}
+.detay {
+  width: 550px;
+  height: 320px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ust-bilgi {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.alt-bilgi {
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+  width: 100%;
+}
+.detay h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+a {
+  color: black;
+  cursor: pointer;
+}
+p {
+  max-width: 190px;
+}
+.tel {
+  width: 180px;
+}
+.mail {
+  margin-right: 10px;
+  margin-left: 0;
+}
+@media screen and (max-width: 750px) {
+  .sube {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .ust-bilgi {
+    justify-content: space-between;
+  }
+  .alt-bilgi {
+    margin: 0px;
+    justify-content: space-around;
+  }
+}
