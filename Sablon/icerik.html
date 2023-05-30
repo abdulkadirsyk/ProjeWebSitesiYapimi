@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İçerik Sayfası Şablon</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      p {
+        color: black;
+        font-size: 25px;
+        margin: 10px;
+      }
+      .header {
+        width: 100%;
+        height: 80px;
+        background-color: rgb(151, 151, 151);
+        display: flex;
+        align-items: center;
+        justify-content: end;
+      }
+      .nav {
+        width: 65%;
+        height: 50px;
+        background-color: rgb(94, 94, 94);
+        margin-right: 5%;
+        margin-left: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      footer {
+        margin-top: 20px;
+        width: 100%;
+        height: 150px;
+        background-color: rgb(138, 138, 138);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      footer nav {
+        width: 30%;
+        height: 40px;
+        background-color: rgb(201, 201, 201);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      aside {
+        width: 25%;
+        height: 700px;
+        background-color: rgb(151, 151, 151);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+      .icerik {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 35px;
+      }
+      .sol {
+        width: 60%;
+        margin-left: 5%;
+      }
+      .ozet {
+        width: 100%;
+        margin-top: 15px;
+        height: 275px;
+        background-color: grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <p>header</p>
+      <nav class="nav"><p>nav</p></nav>
+    </header>
+
+    <div class="icerik">
+      <div class="sol">
+        <p>h1</p>
+        <div class="ozet"><p>h2</p></div>
+        <p>h3</p>
+        <div class="ozet"><p>p</p></div>
+        <div class="ozet"><p>img</p></div>
+        <p>h3</p>
+        <div class="ozet"><p>p</p></div>
+      </div>
+
+      <aside>
+        <p>aside</p>
+      </aside>
+    </div>
+
+    <footer>
+      <nav><p>nav</p></nav>
+      <p>footer</p>
+    </footer>
+  </body>
+</html>

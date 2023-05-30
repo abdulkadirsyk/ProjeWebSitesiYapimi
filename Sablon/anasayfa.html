@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ana Sayfa Şablon</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      p {
+        color: black;
+        font-size: 25px;
+      }
+      .header {
+        width: 100%;
+        height: 80px;
+        background-color: rgb(151, 151, 151);
+        display: flex;
+        align-items: center;
+        justify-content: end;
+      }
+      .nav {
+        width: 65%;
+        height: 50px;
+        background-color: rgb(94, 94, 94);
+        margin-right: 5%;
+        margin-left: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .section1 {
+        margin-top: 20px;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(136, 136, 136);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .section2 {
+        margin-top: 20px;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(136, 136, 136);
+        text-align: center;
+        padding: 10px;
+      }
+      .section3 {
+        margin-top: 20px;
+        width: 100%;
+        height: 700px;
+        background-color: rgb(136, 136, 136);
+        text-align: center;
+      }
+      .divler {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .divler div {
+        width: 20%;
+        height: 300px;
+        background-color: rgb(80, 80, 80);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+      }
+      .ust div {
+        width: 35%;
+        height: 300px;
+        background-color: rgb(80, 80, 80);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+      }
+      .alt div {
+        width: 35%;
+        height: 300px;
+        background-color: rgb(80, 80, 80);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+      }
+      .ust,
+      .alt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .section4 {
+        margin-top: 20px;
+        width: 100%;
+        height: 300px;
+        background-color: rgb(136, 136, 136);
+        text-align: center;
+      }
+
+      .section4 div {
+        width: 70%;
+        height: 60px;
+        background-color: rgb(224, 224, 224);
+        margin: 10px;
+        margin-left: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      footer {
+        margin-top: 20px;
+        width: 100%;
+        height: 150px;
+        background-color: rgb(138, 138, 138);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      footer nav {
+        width: 30%;
+        height: 40px;
+        background-color: rgb(201, 201, 201);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <p>header</p>
+      <nav class="nav"><p>nav</p></nav>
+    </header>
+    <section class="section1">
+      <p>section</p>
+    </section>
+
+    <section class="section2">
+      <p>section</p>
+      <div class="divler">
+        <div><p>div</p></div>
+        <div><p>div</p></div>
+        <div><p>div</p></div>
+      </div>
+    </section>
+    <section class="section3">
+      <p>section</p>
+      <div class="divler2">
+        <div class="ust">
+          <div><p>div</p></div>
+          <div><p>div</p></div>
+        </div>
+        <div class="alt">
+          <div><p>div</p></div>
+          <div><p>div</p></div>
+        </div>
+      </div>
+    </section>
+    <section class="section4">
+      <p>section</p>
+      <div><p>details</p></div>
+      <div><p>details</p></div>
+      <div><p>details</p></div>
+    </section>
+    <footer>
+      <nav><p>nav</p></nav>
+      <p>footer</p>
+    </footer>
+  </body>
+</html>
